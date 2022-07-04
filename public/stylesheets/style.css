@@ -1,0 +1,79 @@
+:root{
+  --Grayish_blue: hsl(237, 18%, 59%);           /*parrafos*/
+  --Soft_red: hsl(345, 95%, 68%);               /*numeros*/
+  --White: hsl(0, 0%, 100%);                    /*letter*/
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Very-dark-black-blue: hsl(234, 17%, 12%); /*fondo*/
+}
+
+*{
+  font-family: 'Red Hat Text';
+  font-size: 14px;
+}
+
+body {
+  background-image: url('../images/bg-stars.svg');
+  background-repeat: no-repeat;
+  color: var(--White);
+  margin: 0px;
+  background-color: var(--Very-dark-black-blue);
+}
+
+.titulo{
+  margin: 80px 0px 80px 0px;
+  text-align: center;
+}
+
+.titulo p{
+  letter-spacing: 10px;
+}
+
+section{
+  text-align: center;
+}
+
+.modulos{
+  display:flex;
+  justify-content: center;
+}
+
+.modulo1{
+  margin: 15px;
+  width: 15%;
+}
+
+.section1{
+  background-color: var(--Dark-desaturated-blue);
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+}
+
+.section2{    
+    background-color: var(--Dark-desaturated-blue);
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width: 100%;
+
+}
+
+.icons .pattern-hill {
+  position: fixed;
+  width: 100%;
+}
+
+.icons-redes{
+  text-align: center;
+  padding-top: 65px;
+}
+
+.icons-redes img{
+  position: relative;
+  margin: 10px;
+}
+
+footer{
+  padding-top: 90px;
+}
